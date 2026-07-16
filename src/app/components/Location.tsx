@@ -31,7 +31,7 @@ export default function Location({ cookieConsent, onAcceptCookies }: LocationPro
               transition={{ duration: 0.6 }}
             >
               <h2 className="font-display text-4xl sm:text-5xl font-black text-brand-white tracking-wider uppercase mb-6">
-                HELYSZÍNÜNK
+                HELYSZÍN
               </h2>
               <div className="w-16 h-1 bg-brand-red mb-8" />
               
@@ -44,7 +44,7 @@ export default function Location({ cookieConsent, onAcceptCookies }: LocationPro
                     Címünk
                   </h3>
                   <p className="text-brand-textSecondary leading-relaxed font-sans font-light">
-                    Kossuth Lajos utca, Csíkszereda (Miercurea Ciuc), Hargita megye, Románia
+                    Tapolca utca 20 (ISK épülete), Csíkszereda, Hargita megye, Románia
                   </p>
                   <p className="text-brand-textSecondary text-xs mt-1 font-mono font-light">
                     Koordináták: 46.370402, 25.806031

@@ -44,10 +44,10 @@ export default function Contact() {
       label: '@nomad.csik',
     },
     {
-      name: 'Membership Portal',
+      name: 'Bérletek',
       url: 'https://berlet.nomad-spirit.com',
       icon: <Globe size={20} />,
-      label: 'Bérletek / Tagoknak',
+      label: 'Tagoknak',
     },
   ];
 
