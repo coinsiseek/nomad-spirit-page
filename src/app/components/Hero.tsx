@@ -111,8 +111,11 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        {/* Mobile/Tablet Gorilla Mascot (rendered in the grid layout - NO scroll fade) */}
-        <div className="lg:hidden col-span-1 flex justify-center relative mt-8">
+        {/* Mobile/Tablet Gorilla Mascot (rendered in the grid layout - fades on scroll) */}
+        <motion.div
+          style={{ opacity }}
+          className="lg:hidden col-span-1 flex justify-center relative mt-8"
+        >
           <div className="relative w-[280px] sm:w-[380px] aspect-[4/5] drop-shadow-[0_20px_50px_rgba(200,16,46,0.15)]">
             <Image
               src="/gorilla.png"
@@ -123,7 +126,7 @@ export default function Hero() {
               priority
             />
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Desktop Gorilla Mascot (Absolute bottom-right positioned, fades out on scroll) */}

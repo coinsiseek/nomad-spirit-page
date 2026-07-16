@@ -71,7 +71,7 @@ export default function Intro() {
             <div className="relative group">
               {/* Outer decorative ring */}
               <div className="absolute inset-0 bg-brand-red/10 rounded-full blur-xl group-hover:bg-brand-red/20 transition duration-500 pointer-events-none" />
-              <div className="relative w-[280px] sm:w-[360px] aspect-square rounded-full border-2 border-brand-border group-hover:border-brand-red/50 p-4 transition duration-500">
+              <div className="relative w-[280px] h-[280px] sm:w-[360px] sm:h-[360px] rounded-full border-2 border-brand-border group-hover:border-brand-red/50 p-4 transition duration-500 flex-shrink-0">
                 <div className="relative w-full h-full rounded-full overflow-hidden">
                   <Image
                     src="/logonomad.png"
