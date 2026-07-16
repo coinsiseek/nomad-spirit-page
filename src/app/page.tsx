@@ -9,7 +9,6 @@ import Location from './components/Location';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
-import MobileStickyCall from './components/MobileStickyCall';
 
 export default function HomePage() {
   const [cookieConsent, setCookieConsent] = useState<boolean | null>(null);
@@ -59,9 +58,6 @@ export default function HomePage() {
 
       {/* Footer Section */}
       <Footer />
-      
-      {/* Mobile Sticky Action Call-now Button */}
-      <MobileStickyCall />
 
       {/* Cookie Banner (GDPR Consent) */}
       {cookieConsent === null && (

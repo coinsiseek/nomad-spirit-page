@@ -123,7 +123,7 @@ export default function Header() {
                 className="flex items-center justify-center gap-2 w-full py-3 bg-brand-red hover:bg-brand-redHover text-brand-white font-bold text-sm uppercase tracking-widest rounded transition duration-300 mt-2"
               >
                 <Globe size={16} />
-                Bérletem / Tagoknak
+                Bérletek / Tagoknak
               </a>
             </div>
           </motion.div>
