@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Target, Users, Flame, Award } from 'lucide-react';
+import { Skull, WavesVertical, BoneFracture, HandMetal } from 'lucide-react';
 import { motion, Variants as MotionVariants } from 'framer-motion';
 
 export default function Intro() {
@@ -26,24 +26,24 @@ export default function Intro() {
 
   const values = [
     {
-      icon: <Flame className="text-brand-red" size={24} />,
-      title: 'Elhivatottság',
-      desc: 'Minden edzés egy lehetőség a fejlődésre, a technika és az állóképesség csiszolására.',
+      icon: <BoneFracture className="text-brand-red" size={24} />,
+      title: 'Kopogd le gyakran',
+      desc: 'Minél többször leütöd, annál hamarabb nem fogod.',
     },
     {
-      icon: <Users className="text-brand-red" size={24} />,
-      title: 'Erős Közösség',
-      desc: 'A Nomad Spirit nemcsak egy edzőterem, hanem egy összetartó testvériség.',
+      icon: <WavesVertical className="text-brand-red" size={24} />,
+      title: '3 az 1-ben',
+      desc: 'Pszichoterápia, fizioterápia és aromaterápia is egyben.',
     },
     {
-      icon: <Target className="text-brand-red" size={24} />,
-      title: 'Fegyelem & Kontroll',
-      desc: 'A BJJ fegyelemre és önuralomra tanít. A megszerzett mentális fókuszt az élet minden területén kamatoztatni fogod.',
+      icon: <Skull className="text-brand-red" size={24} />,
+      title: 'Ego Halál',
+      desc: 'Egy jó sarokfeszítés és pillanatok alatt elfelejted, hogy egyáltalán volt egód.',
     },
     {
-      icon: <Award className="text-brand-red" size={24} />,
-      title: 'Hiteles Oktatás',
-      desc: 'Biztonságos és strukturált edzésekkel segítjük a kezdők beilleszkedését és a haladók fejlődését.',
+      icon: <HandMetal className="text-brand-red" size={24} />,
+      title: 'Finomvegyes Technikák',
+      desc: 'Semmi felesleges cirkusz — csak azok a fogások, amik tényleg működnek.',
     },
   ];
 
@@ -97,7 +97,7 @@ export default function Intro() {
             </p>
 
             <p className="text-brand-textSecondary mb-10 leading-relaxed font-sans font-light">
-              Csíkszeredai akadémiánkat azzal a céllal hoztuk létre, hogy egy komoly, de befogadó környezetet biztosítsunk a grappling szerelmeseinek. Nem számít, ha még soha nem álltál küzdősport szőnyegen, vagy ha már évek óta edzesz: modern tatamival és szakértő edzésvezetéssel várunk!
+              Csíkszeredai klubunkat azzal a céllal hoztuk létre, hogy egy befogadó környezetet biztosítsunk a BJJ szerelmeseinek. Nem számít, ha még soha nem álltál küzdősport szőnyegen, vagy ha már évek óta edzesz: modern tatamival és profi edzésekkel várunk!
             </p>
 
             {/* Values Grid */}

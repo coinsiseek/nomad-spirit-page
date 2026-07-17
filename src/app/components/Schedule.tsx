@@ -25,7 +25,7 @@ export default function Schedule() {
       day: 'Szombat',
       time: '12:00 – 14:00',
       type: 'Open Mat',
-      focus: 'Szabad szőnyeg mindenkinek. Hozd a barátaidat más küzdősportokból, gyakorold a tanultakat, és gurulj kötetlenül baráti légkörben.',
+      focus: 'Szabad szőnyeg mindenkinek. Hozd a haverokat, gyakorold a tanultakat, és gurulj baráti légkörben.',
       label: 'Nyílt szőnyeg',
       badgeColor: 'border-amber-500 text-amber-500 bg-amber-500/10',
     },
@@ -69,7 +69,7 @@ export default function Schedule() {
             </h2>
             <div className="w-16 h-1 bg-brand-red mx-auto mb-6" />
             <p className="text-brand-textSecondary max-w-xl mx-auto font-sans font-light">
-              Csatlakozz bármelyik edzésünkhöz! Kezdőket is várunk mindegyik alkalommal — az edzéseket a szintednek megfelelően skálázzuk.
+              Csatlakozz bármelyik edzésünkhöz! 13 éves kortól 100ig. Kezdőket is várunk — az edzéseket a szintednek megfelelően fűszerezzük.
             </p>
           </motion.div>
         </div>

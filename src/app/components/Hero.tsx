@@ -79,7 +79,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-red/10 border border-brand-red/30 rounded-full text-brand-red font-bold text-xs uppercase tracking-widest mb-6 w-fit">
             <Shield size={12} />
-            Csíkszereda Grappling Akadémia
+            Csíkszereda
           </div>
 
           <h1 className="font-display text-6xl sm:text-8xl xl:text-9xl font-black text-brand-white leading-none tracking-tight mb-2">

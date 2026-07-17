@@ -53,7 +53,7 @@ export default function Location({ cookieConsent, onAcceptCookies }: LocationPro
               </div>
 
               <p className="text-brand-textSecondary mb-8 leading-relaxed font-sans font-light">
-                Akadémiánk Csíkszereda szívében, könnyen megközelíthető helyen található. Modern, tiszta, jól felszerelt grappling teremmel várunk minden érdeklődőt.
+                Csíkszereda szívében, könnyen megközelíthető helyen találsz meg minket. Modern, tiszta, jól felszerelt grappling teremmel várunk minden érdeklődőt.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">

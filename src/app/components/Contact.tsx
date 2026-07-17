@@ -72,7 +72,7 @@ export default function Contact() {
           <div className="w-16 h-1 bg-brand-red mx-auto mb-8" />
           
           <p className="text-lg sm:text-xl text-brand-textSecondary max-w-2xl mx-auto mb-12 leading-relaxed font-sans font-light">
-            Várunk az első ingyenes próbaedzésedre. Kérdésed van az edzésekkel kapcsolatban? Hívj minket telefonon bizalommal vagy keress minket közösségi oldalainkon!
+            Várunk az első ingyenes próbaedzésedre. Kérdésed van az edzésekkel kapcsolatban? Hívj minket telefonon bizalommal vagy keress közösségi oldalainkon!
           </p>
 
           {/* Big Phone Button */}
